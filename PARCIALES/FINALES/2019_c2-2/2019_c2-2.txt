@@ -1,0 +1,14 @@
+3)Responder justificando de forma breve y concisa las siguientes preguntas:
+    a. ¿Cuál es la complejidad de heapsort? ¿es posible que conociendo información adicional logremos mejorar su
+    complejidad?
+    -> Heapsort por ser un ordenamiento comparativo tiene una complejidad O(n log n) la cual por más conocimiento adicional
+    no puede ser mejorada ya que al ser un ordenamiento comparativo , su mejor complejidad es la mencionada.
+
+    b. ¿Qué implica que un algoritmo de ordenamiento sea estable? ¿Es mergesort un algoritmo de ordenamiento estable?
+    ->Significa que mantenga el orden relativo de los elementos ingresados en la salida del algoritmo como sucede en
+    counting sort, lo cual no sucede en merge sort.
+
+    c. ¿Es siempre mejor utilizar Counting Sort para ordenar un arreglo de números enteros por sobre utilizar un
+    ordenamiento por Selección?
+    ->Depende de la informacion que tenemos, por ejemplo, si son numeros del 0 al 10 tenemos un rango acotado conocido
+    el cual no es muy grande es mejor que usar Selección, pero depende del caso en el cual nos encontremos , teniendo o no info que lo amerite utilizar.

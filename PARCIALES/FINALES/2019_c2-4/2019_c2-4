@@ -1,0 +1,16 @@
+2) Responder Verdadero o Falso, justificando en cada caso:
+    a) Se puede aplicar el Algoritmo de Prim para obtener el Árbol de Tendido Mínimo en un grafo con aristas de pesos
+    negativos.
+    ->Verdadero, los pesos negativos no afectan a poder encontrar un MST de cualquier grafo.
+
+    b) Si en vez del árbol de tendido mínimo de un grafo buscáramos obtener el árbol de tendido máximo del mismo,
+    podríamos modificar lévemente al Algoritmo de Kruskal para poder obtener dicho árbol.
+    ->Verdadero, la estructura union find seguiría funcionando de igual forma y el algoritmo de ordenamiento empleado
+    (en lo posible no comparativo para obtener una mejor complejidad) ordene de mayor a menor.
+
+    c) Si el grafo es no pesado, de todas formas los Algoritmos de Prim y Kruskal se pueden utilizar y son la mejor opción
+    para obtener un árbol de tendido.
+    ->Se pueden utilizar (podría pensarse como que el peso de las aristas es cero) pero es mejor utilizar bfs ya que tendriamos
+    un arbol de tendido mínimo de igual forma, los vertices no tienen "costo" para ir hacia los demas con las aristas y por ende
+    la aclaracion es falsa.
+    
