@@ -1,2 +1,2 @@
 # Algoritmos-2-Buchwald
-TP's y Ejercicios | 2021 1°C
+**Acá se encuentran ejercicios de parciales, trabajos prácticos y del final que rendí al aprobar la materia.**
